@@ -24,7 +24,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 nav li {
     list-style: none;
@@ -87,9 +87,6 @@ font-size: 35px;
     display: flex;
     justify-content: space-around;
 }
-.info-title{
-
-}
 .about .info-title{
     font-size: 20px;
     color: #757575;
@@ -121,6 +118,51 @@ font-size: 35px;
     border-radius: 5px;
     padding: 30px;
 }
-.rusume-contante{
+.resume-content{
     display: flex;
+    gap: 25px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume .info-description{
+    color: #757575;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-button{
+    margin-top: 40px;
+    text-align: center;
+}
+.contract{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contract .section-title{
+    text-align: left;
+}
+.contract input[type="text"],input[type="email"], textarea {
+    margin-bottom: 25px;
+    border:0;
+    width: 100%;
+    padding: 10px 30px;
+}
+input {
+    height: 65px;
+}
+.contract a {
+    text-decoration: none;
 }
